@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <style>
+        .Form-C
+{
+width: 400px;
+background: gainsboro;
+padding: 30px;
+margin: auto;
+margin-top: 25px;
+border-radius: 15px;
+}
+
+.button
+{
+    border-radius: 15px;
+    width: 70px;
+    height: 40px ;
+}
+/*Jordan Alonso Rios Matus*/
+    </style>
+
+    <form>
+        <section class="Form-C">
+            <center><h2>Datos Personales</h2></center>
+            <h3>Nombre</h4>
+            <input type="text" placeholder="Ingrese su nombre aquí" required>
+            <h3>Sexo</h4>
+            <input type="radio" name="A" required>Femenino
+            <input type="radio" name="A" required>Masculino
+            <h3>Edad</h4>
+            <input type="number" placeholder="Ingrese su edad aquí" required min="1">
+            <h3>Estado civíl</h4>
+            <input type="radio" name="B" required>Soltero/a
+            <input type="radio" name="B" required>Casado/a
+            <h3>Dirección</h4>
+            <input type="text" placeholder="Ingrese su dirrección aquí" required>
+            <h3>Carrera</h4>
+            <select required>
+                <option></option>
+                <option>Ingeniería en Sistemas</option>
+                <option>Ingeniería en Computación</option>
+                <option>Ingeniería Industrial</option>
+                <option>Peridodismo</option>
+                <option>Derecho</option>
+            </select>
+            <h3>Correo electrónico</h4>
+            <input type="email" placeholder="Alguien@algo.com" required>
+            <br>
+            <br>
+            <br>
+            <center><input type="submit" value="Enviar" class="button"></center>
+        </section>        
+    </form>
+</body>
+</html>
+ <!-- Jordan Alonso Rios Matus -->
